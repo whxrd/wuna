@@ -1,0 +1,105 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #1F2937;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(172, 172, 172);
+    font-size: 28px;
+    color: white;
+    padding: 0px 20px;
+    display: block;
+}
+li a::after{
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0;
+    background: #ffffff;
+    transition: all .4s;
+}
+li a:hover::after{
+    width: 100%;
+}
+.firstpage{
+    display: flex;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+.left-side{
+    width: 40%;
+}
+.firstpage p{
+    font-style: italic;
+}
+main h1{
+    font-size: 48px;
+}
+.right-side{
+    display: flex;
+}
+
+.butta{
+    padding:10px 20px;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    font-weight: 700;
+}
+.randominfo{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+}
+.secondpage{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    text-align:center;
+}
+.pictures{
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+.texxt{
+    font-size: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    background: white;
+    text-align: center;
+}
+.quotehere{
+    display: flex;
+    background: rgb(168, 167, 167);
+    justify-content: center;
+}
+.quote{
+    font-size: 24px;
+    max-width: 70%;
+    text-align: center;
+    font-style: italic;
+    padding: 10px 40px;
+}
+.footer{
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    margin-top: 8px;
+}
